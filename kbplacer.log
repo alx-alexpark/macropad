@@ -1,0 +1,199 @@
+[kbplacer_plugin_action.py:65]: Plugin version: 0.12
+[kbplacer_plugin_action.py:66]: Python version: '3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]'
+[kbplacer_plugin_action.py:67]: KiCad version: 9.0.0-rc1 with 4.2.2a1 osx-cocoa (phoenix) wxWidgets 3.2.6
+[kbplacer_dialog.py:585]: Language: en
+[kbplacer_plugin_action.py:75]: GUI state: {"layout_path": "/Users/alexanderpark/Downloads/keyboard-layout.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}, "enable_diode_placement": true, "route_switches_with_diodes": true, "optimize_diodes_orientation": true, "diode_info": {"annotation_format": "D{}", "position_option": "Relative", "position": null, "template_path": ""}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}], "route_rows_and_columns": true, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+[key_placer.py:361]: Set key 1U distance: 19050000/19050000
+[key_placer.py:116]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix, switch-by-matrix association can't be used
+[key_placer.py:123]: Switches by nets: {}
+[key_placer.py:127]: Diodes by switch: {'SW11': ['D11'], 'SW9': ['D8'], 'SW17': ['D18'], 'SW13': ['D13'], 'SW6': ['D5'], 'SW14': ['D14'], 'SW8': ['D7'], 'SW12': ['D12'], 'SW2': ['D10', 'D20', 'D15'], 'SW1': ['D10', 'D20', 'D15'], 'SW4': ['D3'], 'SW3': ['D2'], 'SW10': ['D9'], 'SW15': ['D16'], 'SW7': ['D6'], 'SW18': ['D19'], 'SW5': ['D4'], 'SW16': ['D17']}
+[board_modifier.py:64]: Searching for SW1 footprint in /Users/alexanderpark/Documents/PCBs/macropad/macropad.kicad_pcb
+[key_placer.py:557]: Looking for connection template between SW1 and other elements
+[board_modifier.py:98]: Getting SW1 footprint position: (69000000, 94750000)
+[key_placer.py:601]: Got connection template: 
+[key_placer.py:116]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix, switch-by-matrix association can't be used
+[key_placer.py:123]: Switches by nets: {}
+[key_placer.py:127]: Diodes by switch: {'SW11': ['D11'], 'SW9': ['D8'], 'SW17': ['D18'], 'SW13': ['D13'], 'SW6': ['D5'], 'SW14': ['D14'], 'SW8': ['D7'], 'SW12': ['D12'], 'SW2': ['D10', 'D20', 'D15'], 'SW1': ['D10', 'D20', 'D15'], 'SW4': ['D3'], 'SW3': ['D2'], 'SW10': ['D9'], 'SW15': ['D16'], 'SW7': ['D6'], 'SW18': ['D19'], 'SW5': ['D4'], 'SW16': ['D17']}
+[board_modifier.py:98]: Getting SW1 footprint position: (69000000, 94750000)
+[board_modifier.py:98]: Getting D10 footprint position: (41950000, 115610000)
+[key_placer.py:899]: Element info updated: ElementInfo(annotation_format='D{}', position_option=<PositionOption.RELATIVE: 'Relative'>, position=ElementPosition(x=-27.05, y=20.86, orientation=0.0, side=<Side.FRONT: 'Front'>), template_path='')
+[board_modifier.py:98]: Getting SW1 footprint position: (69000000, 94750000)
+[board_modifier.py:98]: Getting D20 footprint position: (41950000, 128850000)
+[key_placer.py:899]: Element info updated: ElementInfo(annotation_format='D{}', position_option=<PositionOption.RELATIVE: 'Relative'>, position=ElementPosition(x=-27.05, y=34.1, orientation=0.0, side=<Side.FRONT: 'Front'>), template_path='')
+[board_modifier.py:98]: Getting SW1 footprint position: (69000000, 94750000)
+[board_modifier.py:98]: Getting D15 footprint position: (41950000, 122230000)
+[key_placer.py:899]: Element info updated: ElementInfo(annotation_format='D{}', position_option=<PositionOption.RELATIVE: 'Relative'>, position=ElementPosition(x=-27.05, y=27.48, orientation=0.0, side=<Side.FRONT: 'Front'>), template_path='')
+[kle_serial.py:897]: User layout: [[{'a': 7}, '', '', '', ''], ['', '', '', ''], ['', '', '', ''], ['', '', '', '']]
+[key_placer.py:661]: Layout offset: (28575000, 28575000)
+[board_modifier.py:85]: Setting SW1 footprint position: (38100000, 38100000)
+[board_modifier.py:85]: Setting SW2 footprint position: (57150000, 38100000)
+[board_modifier.py:85]: Setting SW3 footprint position: (76200000, 38100000)
+[board_modifier.py:85]: Setting SW4 footprint position: (95250000, 38100000)
+[board_modifier.py:85]: Setting SW5 footprint position: (38100000, 57150000)
+[board_modifier.py:85]: Setting SW6 footprint position: (57150000, 57150000)
+[board_modifier.py:85]: Setting SW7 footprint position: (76200000, 57150000)
+[board_modifier.py:85]: Setting SW8 footprint position: (95250000, 57150000)
+[board_modifier.py:85]: Setting SW9 footprint position: (38100000, 76200000)
+[board_modifier.py:85]: Setting SW10 footprint position: (57150000, 76200000)
+[board_modifier.py:85]: Setting SW11 footprint position: (76200000, 76200000)
+[board_modifier.py:85]: Setting SW12 footprint position: (95250000, 76200000)
+[board_modifier.py:85]: Setting SW13 footprint position: (38100000, 95250000)
+[board_modifier.py:85]: Setting SW14 footprint position: (57150000, 95250000)
+[board_modifier.py:85]: Setting SW15 footprint position: (76200000, 95250000)
+[board_modifier.py:85]: Setting SW16 footprint position: (95250000, 95250000)
+[key_placer.py:996]: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.RELATIVE: 'Relative'>, position=ElementPosition(x=-27.05, y=20.86, orientation=0.0, side=<Side.FRONT: 'Front'>), template_path=''), ElementInfo(annotation_format='D{}', position_option=<PositionOption.RELATIVE: 'Relative'>, position=ElementPosition(x=-27.05, y=34.1, orientation=0.0, side=<Side.FRONT: 'Front'>), template_path=''), ElementInfo(annotation_format='D{}', position_option=<PositionOption.RELATIVE: 'Relative'>, position=ElementPosition(x=-27.05, y=27.48, orientation=0.0, side=<Side.FRONT: 'Front'>), template_path='')]
+[board_modifier.py:98]: Getting SW1 footprint position: (38100000, 38100000)
+[board_modifier.py:85]: Setting D10 footprint position: (11050000, 58960000)
+[board_modifier.py:85]: Setting D20 footprint position: (11050000, 72200000)
+[board_modifier.py:85]: Setting D15 footprint position: (11050000, 65580000)
+[board_modifier.py:98]: Getting SW2 footprint position: (57150000, 38100000)
+[board_modifier.py:98]: Getting SW3 footprint position: (76200000, 38100000)
+[board_modifier.py:85]: Setting D2 footprint position: (49150000, 58960000)
+[board_modifier.py:98]: Getting SW4 footprint position: (95250000, 38100000)
+[board_modifier.py:85]: Setting D3 footprint position: (68200000, 58960000)
+[board_modifier.py:98]: Getting SW5 footprint position: (38100000, 57150000)
+[board_modifier.py:85]: Setting D4 footprint position: (11050000, 78010000)
+[board_modifier.py:98]: Getting SW6 footprint position: (57150000, 57150000)
+[board_modifier.py:85]: Setting D5 footprint position: (30100000, 78010000)
+[board_modifier.py:98]: Getting SW7 footprint position: (76200000, 57150000)
+[board_modifier.py:85]: Setting D6 footprint position: (49150000, 78010000)
+[board_modifier.py:98]: Getting SW8 footprint position: (95250000, 57150000)
+[board_modifier.py:85]: Setting D7 footprint position: (68200000, 78010000)
+[board_modifier.py:98]: Getting SW9 footprint position: (38100000, 76200000)
+[board_modifier.py:85]: Setting D8 footprint position: (11050000, 97060000)
+[board_modifier.py:98]: Getting SW10 footprint position: (57150000, 76200000)
+[board_modifier.py:85]: Setting D9 footprint position: (30100000, 97060000)
+[board_modifier.py:98]: Getting SW11 footprint position: (76200000, 76200000)
+[board_modifier.py:85]: Setting D11 footprint position: (49150000, 97060000)
+[board_modifier.py:98]: Getting SW12 footprint position: (95250000, 76200000)
+[board_modifier.py:85]: Setting D12 footprint position: (68200000, 97060000)
+[board_modifier.py:98]: Getting SW13 footprint position: (38100000, 95250000)
+[board_modifier.py:85]: Setting D13 footprint position: (11050000, 116110000)
+[board_modifier.py:98]: Getting SW14 footprint position: (57150000, 95250000)
+[board_modifier.py:85]: Setting D14 footprint position: (30100000, 116110000)
+[board_modifier.py:98]: Getting SW15 footprint position: (76200000, 95250000)
+[board_modifier.py:85]: Setting D16 footprint position: (49150000, 116110000)
+[board_modifier.py:98]: Getting SW16 footprint position: (95250000, 95250000)
+[board_modifier.py:85]: Setting D17 footprint position: (68200000, 116110000)
+[board_modifier.py:98]: Getting SW17 footprint position: (159840000, 158910000)
+[board_modifier.py:85]: Setting D18 footprint position: (132790000, 179770000)
+[board_modifier.py:98]: Getting SW18 footprint position: (159840000, 174000000)
+[board_modifier.py:85]: Setting D19 footprint position: (132790000, 194860000)
+[key_placer.py:746]: Optimizing orientation of SW1 diodes
+[board_modifier.py:98]: Getting D10 footprint position: (11050000, 58960000)
+[board_modifier.py:98]: Getting D20 footprint position: (11050000, 72200000)
+[board_modifier.py:98]: Getting D15 footprint position: (11050000, 65580000)
+[key_placer.py:746]: Optimizing orientation of SW2 diodes
+[board_modifier.py:98]: Getting D10 footprint position: (11050000, 58960000)
+[board_modifier.py:98]: Getting D20 footprint position: (11050000, 72200000)
+[board_modifier.py:98]: Getting D15 footprint position: (11050000, 65580000)
+[key_placer.py:746]: Optimizing orientation of SW3 diodes
+[board_modifier.py:98]: Getting D2 footprint position: (49150000, 58960000)
+[key_placer.py:746]: Optimizing orientation of SW4 diodes
+[board_modifier.py:98]: Getting D3 footprint position: (68200000, 58960000)
+[key_placer.py:746]: Optimizing orientation of SW5 diodes
+[board_modifier.py:98]: Getting D4 footprint position: (11050000, 78010000)
+[key_placer.py:746]: Optimizing orientation of SW6 diodes
+[board_modifier.py:98]: Getting D5 footprint position: (30100000, 78010000)
+[key_placer.py:746]: Optimizing orientation of SW7 diodes
+[board_modifier.py:98]: Getting D6 footprint position: (49150000, 78010000)
+[key_placer.py:746]: Optimizing orientation of SW8 diodes
+[board_modifier.py:98]: Getting D7 footprint position: (68200000, 78010000)
+[key_placer.py:746]: Optimizing orientation of SW9 diodes
+[board_modifier.py:98]: Getting D8 footprint position: (11050000, 97060000)
+[key_placer.py:746]: Optimizing orientation of SW10 diodes
+[board_modifier.py:98]: Getting D9 footprint position: (30100000, 97060000)
+[key_placer.py:746]: Optimizing orientation of SW11 diodes
+[board_modifier.py:98]: Getting D11 footprint position: (49150000, 97060000)
+[key_placer.py:746]: Optimizing orientation of SW12 diodes
+[board_modifier.py:98]: Getting D12 footprint position: (68200000, 97060000)
+[key_placer.py:746]: Optimizing orientation of SW13 diodes
+[board_modifier.py:98]: Getting D13 footprint position: (11050000, 116110000)
+[key_placer.py:746]: Optimizing orientation of SW14 diodes
+[board_modifier.py:98]: Getting D14 footprint position: (30100000, 116110000)
+[key_placer.py:746]: Optimizing orientation of SW15 diodes
+[board_modifier.py:98]: Getting D16 footprint position: (49150000, 116110000)
+[key_placer.py:746]: Optimizing orientation of SW16 diodes
+[board_modifier.py:98]: Getting D17 footprint position: (68200000, 116110000)
+[key_placer.py:746]: Optimizing orientation of SW17 diodes
+[board_modifier.py:98]: Getting D18 footprint position: (132790000, 179770000)
+[key_placer.py:746]: Optimizing orientation of SW18 diodes
+[board_modifier.py:98]: Getting D19 footprint position: (132790000, 194860000)
+[key_placer.py:774]: Placing additional elements for SW18
+[board_modifier.py:98]: Getting SW18 footprint position: (159840000, 174000000)
+[board_modifier.py:75]: Searching for optional ST18 footprint in /Users/alexanderpark/Documents/PCBs/macropad/macropad.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW17
+[board_modifier.py:98]: Getting SW17 footprint position: (159840000, 158910000)
+[board_modifier.py:75]: Searching for optional ST17 footprint in /Users/alexanderpark/Documents/PCBs/macropad/macropad.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW16
+[board_modifier.py:98]: Getting SW16 footprint position: (95250000, 95250000)
+[board_modifier.py:75]: Searching for optional ST16 footprint in /Users/alexanderpark/Documents/PCBs/macropad/macropad.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW15
+[board_modifier.py:98]: Getting SW15 footprint position: (76200000, 95250000)
+[board_modifier.py:75]: Searching for optional ST15 footprint in /Users/alexanderpark/Documents/PCBs/macropad/macropad.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW14
+[board_modifier.py:98]: Getting SW14 footprint position: (57150000, 95250000)
+[board_modifier.py:75]: Searching for optional ST14 footprint in /Users/alexanderpark/Documents/PCBs/macropad/macropad.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW13
+[board_modifier.py:98]: Getting SW13 footprint position: (38100000, 95250000)
+[board_modifier.py:75]: Searching for optional ST13 footprint in /Users/alexanderpark/Documents/PCBs/macropad/macropad.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW12
+[board_modifier.py:98]: Getting SW12 footprint position: (95250000, 76200000)
+[board_modifier.py:75]: Searching for optional ST12 footprint in /Users/alexanderpark/Documents/PCBs/macropad/macropad.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW11
+[board_modifier.py:98]: Getting SW11 footprint position: (76200000, 76200000)
+[board_modifier.py:75]: Searching for optional ST11 footprint in /Users/alexanderpark/Documents/PCBs/macropad/macropad.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW10
+[board_modifier.py:98]: Getting SW10 footprint position: (57150000, 76200000)
+[board_modifier.py:75]: Searching for optional ST10 footprint in /Users/alexanderpark/Documents/PCBs/macropad/macropad.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW9
+[board_modifier.py:98]: Getting SW9 footprint position: (38100000, 76200000)
+[board_modifier.py:75]: Searching for optional ST9 footprint in /Users/alexanderpark/Documents/PCBs/macropad/macropad.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW8
+[board_modifier.py:98]: Getting SW8 footprint position: (95250000, 57150000)
+[board_modifier.py:75]: Searching for optional ST8 footprint in /Users/alexanderpark/Documents/PCBs/macropad/macropad.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW7
+[board_modifier.py:98]: Getting SW7 footprint position: (76200000, 57150000)
+[board_modifier.py:75]: Searching for optional ST7 footprint in /Users/alexanderpark/Documents/PCBs/macropad/macropad.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW6
+[board_modifier.py:98]: Getting SW6 footprint position: (57150000, 57150000)
+[board_modifier.py:75]: Searching for optional ST6 footprint in /Users/alexanderpark/Documents/PCBs/macropad/macropad.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW5
+[board_modifier.py:98]: Getting SW5 footprint position: (38100000, 57150000)
+[board_modifier.py:75]: Searching for optional ST5 footprint in /Users/alexanderpark/Documents/PCBs/macropad/macropad.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW4
+[board_modifier.py:98]: Getting SW4 footprint position: (95250000, 38100000)
+[board_modifier.py:75]: Searching for optional ST4 footprint in /Users/alexanderpark/Documents/PCBs/macropad/macropad.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW3
+[board_modifier.py:98]: Getting SW3 footprint position: (76200000, 38100000)
+[board_modifier.py:75]: Searching for optional ST3 footprint in /Users/alexanderpark/Documents/PCBs/macropad/macropad.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW2
+[board_modifier.py:98]: Getting SW2 footprint position: (57150000, 38100000)
+[board_modifier.py:75]: Searching for optional ST2 footprint in /Users/alexanderpark/Documents/PCBs/macropad/macropad.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW1
+[board_modifier.py:98]: Getting SW1 footprint position: (38100000, 38100000)
+[board_modifier.py:75]: Searching for optional ST1 footprint in /Users/alexanderpark/Documents/PCBs/macropad/macropad.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:423]: Routing SW18 with D19
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW18:2' at (162380000, 168920000) with pad 'D19:2' at (134190000, 194860000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(162380000, 168920000), (160130000, 168920000)]

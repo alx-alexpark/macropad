@@ -1,0 +1,6 @@
+[submodule "kiswitch"]
+	path = kiswitch
+	url = git@github.com:kiswitch/kiswitch.git
+[submodule "libs/kiswitch"]
+	path = libs/kiswitch
+	url = git@github.com:kiswitch/kiswitch.git
