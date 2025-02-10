@@ -58,7 +58,56 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|181100000|69250000|e08e38a2-59b6-4148-b538-3e7180799019|401a5236-56b8-4f0e-a804-a01afad62641",
+          ""
+        ],
+        [
+          "hole_clearance|181100000|69250000|e08e38a2-59b6-4148-b538-3e7180799019|60977a0b-4048-4fbf-908a-eae012a18e0e",
+          ""
+        ],
+        [
+          "hole_clearance|181300000|69250000|e08e38a2-59b6-4148-b538-3e7180799019|59af40a7-fbe0-4fb8-883c-242141a3d57f",
+          ""
+        ],
+        [
+          "hole_clearance|181300000|69250000|e08e38a2-59b6-4148-b538-3e7180799019|bbc7e3b6-a952-46a9-92f7-802f156bfe0c",
+          ""
+        ],
+        [
+          "hole_clearance|186700000|69250000|28cbcb5e-ddaf-4af4-8e1d-a651d0b52516|51f23580-000d-4d25-9682-8bdc03a0d062",
+          ""
+        ],
+        [
+          "hole_clearance|186700000|69250000|28cbcb5e-ddaf-4af4-8e1d-a651d0b52516|eebc247a-e3ad-4c22-939e-e43618586827",
+          ""
+        ],
+        [
+          "hole_clearance|186900000|69250000|28cbcb5e-ddaf-4af4-8e1d-a651d0b52516|7b3b5072-e378-4013-90fd-c281734de70c",
+          ""
+        ],
+        [
+          "hole_clearance|186900000|69250000|28cbcb5e-ddaf-4af4-8e1d-a651d0b52516|886b85fa-9d67-427a-b6c1-db64f0e53a3b",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|187882451|83501738|ec6b53e0-e192-408c-84e9-4a1a27b3436c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "starved_thermal|125750000|76210000|202feb36-cd7a-43ca-bfae-6523f31a2173|b335172c-461e-46e8-8475-ee97e037f000|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|178930000|69270000|57dfae80-81b5-4c50-98c2-ce556fb4a548|2a89df96-1ae1-4ee4-bb9f-bee841d90f84|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|179680000|65070000|57dfae80-81b5-4c50-98c2-ce556fb4a548|7c39bf45-ccdc-488b-b1ca-c2fddcd150cb|B.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -83,7 +132,7 @@
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
-        "isolated_copper": "warning",
+        "isolated_copper": "ignore",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
@@ -100,8 +149,8 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -187,7 +236,8 @@
       ],
       "track_widths": [
         0.0,
-        0.2
+        0.2,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -464,7 +514,7 @@
   },
   "meta": {
     "filename": "macropad.kicad_pro",
-    "version": 2
+    "version": 3
   },
   "net_settings": {
     "classes": [
